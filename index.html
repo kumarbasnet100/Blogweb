@@ -11,35 +11,32 @@
 
 <body class="bg-black">
     <!-- NAV BAR -->
-    <nav class="fs-5 navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <nav class="fs-5 navbar border border-4 navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
         <div class="container-fluid">
-            <img src="logo.png" height="60px" width="60px" alt="logo">
-            <a class="navbar-brand fs-2 font-monospace" href="#">EasyCoding</a>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#our_services">Our Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#pricing">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#compare_plans">Compare Plans</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#contact_us">Contact Us</a>
-                    </li>
-            
+          <a class="navbar-brand fs-2 font-monospace" href="#">Easy Coding</a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="navbar-collapse collapse" id="navbarsExample03">
+            <ul class="navbar-nav ms-auto mb-2 mb-sm-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
 
-                </ul>
-            </div>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#our_services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contact_us">Contact Us</a>
+            </li>
+          </div>
         </div>
-    </nav>
+      </nav>
     <!-- CAROUSEL -->
-    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
@@ -51,7 +48,7 @@
         <div class="carousel-inner">
             <div class="carousel-item active class=image">
                 <img src="caarou.jpg" class="size" alt="img1">
-                <div class="carousel-caption d-none d-md-block">
+                <div id="home" class="carousel-caption d-none d-md-block">
                     <h5>Welcome to Easy Coding</h5>
                     <p>We help you in all type of coding services</p>
                 </div>
@@ -91,12 +88,8 @@
                     <div
                         class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                         <div class="col p-4 d-flex flex-column position-static">
-                            <strong class="d-inline-block mb-2 text-warning">Welcome to coding</strong>
-                            <h3 class="mb-0 text-white">Lets begin the coding journey</h3>
-                            <div class="mb-1 text-success">Nov 12</div>
-                            <p class="card-text mb-auto text-light">This is a wider card with supporting text below as a
-                                natural
-                                lead-in to additional content.</p>
+                            <h3 class="d-inline-block mb-2 text-warning">In-Depth Tutorials</h3>
+                            <p class="card-text mb-auto text-light">Our tutorials are meticulously crafted to guide you through various programming languages, frameworks, and tools. Whether you are a beginner looking to learn the basics or an experienced developer aiming to expand your knowledge, our step-by-step guides cover everything from fundamental concepts to advanced techniques.</p>
                             <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
                                 Continue reading
                             </a>
@@ -110,12 +103,8 @@
                     <div
                         class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                         <div class="col p-4 d-flex flex-column position-static">
-                            <strong class="d-inline-block mb-2 text-warning">Welcome to coding</strong>
-                            <h3 class="mb-0 text-white">Lets begin the coding journey</h3>
-                            <div class="mb-1 text-success">Nov 12</div>
-                            <p class="card-text mb-auto text-light">This is a wider card with supporting text below as a
-                                natural
-                                lead-in to additional content.</p>
+                            <h3 class="d-inline-block mb-2 text-warning">Code Reviews and Debugging</h3>
+                            <p class="card-text mb-auto text-light">Get expert feedback on your code with our code review and debugging services. We provide detailed analysis, suggestions for improvements, and identify potential issues to help you write cleaner, more efficient, and error-free code.</p>
                             <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
                                 Continue reading
                             </a>
@@ -129,12 +118,8 @@
                     <div
                         class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                         <div class="col p-4 d-flex flex-column position-static">
-                            <strong class="d-inline-block mb-2 text-warning">Welcome to coding</strong>
-                            <h3 class="mb-0 text-white">Lets begin the coding journey</h3>
-                            <div class="mb-1 text-success">Nov 12</div>
-                            <p class="card-text mb-auto text-light">This is a wider card with supporting text below as a
-                                natural
-                                lead-in to additional content.</p>
+                            <h3 class="d-inline-block mb-2 text-warning">Custom Development Projects</h3>
+                            <p class="card-text mb-auto text-light">Need help with a specific project? Our team of experienced developers can assist you in building custom applications, automating tasks, and solving complex coding challenges. We work closely with you to understand your requirements and deliver tailored solutions.</p>
                             <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
                                 Continue reading
                             </a>
@@ -148,12 +133,8 @@
                     <div
                         class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                         <div class="col p-4 d-flex flex-column position-static">
-                            <strong class="d-inline-block mb-2 text-warning">Welcome to coding</strong>
-                            <h3 class="mb-0 text-white">Lets begin the coding journey</h3>
-                            <div class="mb-1 text-success">Nov 12</div>
-                            <p class="card-text mb-auto text-light">This is a wider card with supporting text below as a
-                                natural
-                                lead-in to additional content.</p>
+                            <h3 class="d-inline-block mb-2 text-warning">Weekly Coding Challenges</h3>
+                            <p class="card-text mb-auto text-light">Test your skills and stay sharp with our weekly coding challenges. These challenges are designed to help you think critically, improve your problem-solving abilities, and learn new techniques. Compete with other developers and earn rewards.</p>
                             <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
                                 Continue reading
                             </a>
@@ -167,12 +148,8 @@
                     <div
                         class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                         <div class="col p-4 d-flex flex-column position-static">
-                            <strong class="d-inline-block mb-2 text-warning">Welcome to coding</strong>
-                            <h3 class="mb-0 text-white">Lets begin the coding journey</h3>
-                            <div class="mb-1 text-success">Nov 12</div>
-                            <p class="card-text mb-auto text-light">This is a wider card with supporting text below as a
-                                natural
-                                lead-in to additional content.</p>
+                            <h3 class="d-inline-block mb-2 text-warning">Resources and Tools</h3>
+                            <p class="card-text mb-auto text-light">Access a rich repository of resources, including cheat sheets, code snippets, templates, and tools that will help you in your development journey. Our curated collection is constantly updated to ensure you have the latest and most relevant information at your fingertips.</p>
                             <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
                                 Continue reading
                             </a>
@@ -186,12 +163,8 @@
                     <div
                         class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                         <div class="col p-4 d-flex flex-column position-static">
-                            <strong class="d-inline-block mb-2 text-warning">Welcome to coding</strong>
-                            <h3 class="mb-0 text-white">Lets begin the coding journey</h3>
-                            <div class="mb-1 text-success">Nov 12</div>
-                            <p class="card-text mb-auto text-light">This is a wider card with supporting text below as a
-                                natural
-                                lead-in to additional content.</p>
+                            <h3 class="d-inline-block mb-2 text-warning">Newsletter and Updates</h3>
+                            <p class="card-text mb-auto text-light">Stay informed with our regular newsletter featuring the latest blog posts, industry news, upcoming events, and exclusive offers. Subscribe to get updates delivered straight to your inbox and never miss out on what's happening in the coding world.</p>
                             <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
                                 Continue reading
                             </a>
@@ -205,7 +178,7 @@
         </div>
     </section>
     <section id="pricing">
-        <h1 class="text-light text-center">Pricing</h1>
+        <h1 class="text-light text-center">Our Pricing</h1>
         <div class="container mt-5 border border-light pt-3">
             <main>
                 <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
@@ -266,94 +239,6 @@
                     </div>
                 </div>
             </section>
-            <section id="compare_plans">
-
-                <h2 class="display-6 text-center mb-4 text-light mt-5">Compare plans</h2>
-                <div class="container border border-light pt-3">
-
-                <div class="table-responsive">
-                    <table class="table text-center">
-                        <thead>
-                            <tr>
-                                <th style="width: 34%;"></th>
-                                <th style="width: 22%;">Free</th>
-                                <th style="width: 22%;">Pro</th>
-                                <th style="width: 22%;">Enterprise</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row" class="text-start">Public</th>
-                                <td><svg class="bi" width="24" height="24">
-                                        <use xlink:href="#check"></use>
-                                    </svg></td>
-                                <td><svg class="bi" width="24" height="24">
-                                        <use xlink:href="#check"></use>
-                                    </svg></td>
-                                <td><svg class="bi" width="24" height="24">
-                                        <use xlink:href="#check"></use>
-                                    </svg></td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="text-start">Private</th>
-                                <td></td>
-                                <td><svg class="bi" width="24" height="24">
-                                        <use xlink:href="#check"></use>
-                                    </svg></td>
-                                <td><svg class="bi" width="24" height="24">
-                                        <use xlink:href="#check"></use>
-                                    </svg></td>
-                            </tr>
-                        </tbody>
-
-                        <tbody>
-                            <tr>
-                                <th scope="row" class="text-start">Permissions</th>
-                                <td><svg class="bi" width="24" height="24">
-                                        <use xlink:href="#check"></use>
-                                    </svg></td>
-                                <td><svg class="bi" width="24" height="24">
-                                        <use xlink:href="#check"></use>
-                                    </svg></td>
-                                <td><svg class="bi" width="24" height="24">
-                                        <use xlink:href="#check"></use>
-                                    </svg></td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="text-start">Sharing</th>
-                                <td></td>
-                                <td><svg class="bi" width="24" height="24">
-                                        <use xlink:href="#check"></use>
-                                    </svg></td>
-                                <td><svg class="bi" width="24" height="24">
-                                        <use xlink:href="#check"></use>
-                                    </svg></td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="text-start">Unlimited members</th>
-                                <td></td>
-                                <td><svg class="bi" width="24" height="24">
-                                        <use xlink:href="#check"></use>
-                                    </svg></td>
-                                <td><svg class="bi" width="24" height="24">
-                                        <use xlink:href="#check"></use>
-                                    </svg></td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="text-start">Extra security</th>
-                                <td></td>
-                                <td></td>
-                                <td><svg class="bi" width="24" height="24">
-                                        <use xlink:href="#check"></use>
-                                    </svg></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </main>
-        </div>
-    </div>
-    </section>
     <section id="contact_us">
         <h1 class="text-center text-light mt-5">Contact Us</h1>
         <div class="container border border-light p-3 text-light">
@@ -387,8 +272,7 @@
                 <div class="col-md-6">
                   <label for="inputState" class="form-label">State</label>
                   <select id="inputState" class="form-select">
-                    <option selected>Choose...</option>
-                    <option>Koshi</option>
+                    <option selected>Koshi</option>
                     <option>Madhesh</option>
                     <option>Bagmati</option>
                     <option>Gandaki</option>
