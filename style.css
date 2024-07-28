@@ -2,3 +2,18 @@
     height: 300px;
     width: 1500px;
 }
+.nav-link:hover{
+    text-decoration: yellow underline;
+}
+.navbar-brand:hover{
+    color: yellow;
+    animation: animate 0.5s linear 0s 1 normal;
+}
+@keyframes animate{
+    from{
+        transform: translate(0px);
+    }
+    to{
+        transform: translate(20px);
+    }
+}
