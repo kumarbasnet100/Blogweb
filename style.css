@@ -4,6 +4,7 @@
 }
 .nav-link:hover{
     text-decoration: yellow underline;
+    animation: animate 0.5s linear 0s 1 normal;
 }
 .navbar-brand:hover{
     color: yellow;
@@ -11,9 +12,9 @@
 }
 @keyframes animate{
     from{
-        transform: translate(0px);
+        transform: translateY(0px);
     }
     to{
-        transform: translate(20px);
+        transform: translateY(20px);
     }
 }
